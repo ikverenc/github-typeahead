@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: 18px; /*thin;*/
+}
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(235, 225, 235); /* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #292a4c; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    /* border: 1px solid #000066;  */ /* creates padding around scroll thumb */
+}
+
+body {
+    background-color: #161b22;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+}

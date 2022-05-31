@@ -1,0 +1,20 @@
+.github-accounts-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+    padding: 0 2rem;
+}
+
+@media screen and (max-width: 980px) {
+    .github-accounts-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .github-accounts-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

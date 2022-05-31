@@ -1,0 +1,38 @@
+.card-container {
+    border: 1px solid #25526c;
+    padding: 2rem;
+    border-radius: 16px;
+    background-color: #292a4c;
+    box-shadow: rgb(63 45 97) -13px 12px 30px -10px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    cursor: pointer;
+}
+
+.card-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 16px;
+}
+
+.card-container:hover {
+    background-color: #b287c3;
+}
+
+.user-name {
+    display: flex;
+    gap: 1em;
+}
+
+.user-name span {
+    color: white;
+}
+
+.user-name img {
+    width: 25px;
+    height: 25px;
+}
