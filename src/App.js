@@ -20,9 +20,13 @@ function App() {
      * * Fetch Users from github api
      */
     useEffect(() => {
-        fetch("https://api.github.com/search/users?q=foo")
-            .then((response) => response.json())
-            .then((usersData) => setGithubUsers(usersData.items));
+        try {
+            fetch("https://api.github.com/search/users?q=foo")
+                .then((response) => response.json())
+                .then((usersData) => setGithubUsers(usersData.items));
+        } catch {
+            alert("Unable to fetch data, Please refresh the page.");
+        }
     }, []);
     /**
      * @param  {}
