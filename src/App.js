@@ -5,7 +5,7 @@ import UsersList from "./components/users-list/users-list.component";
 import UserSearchfield from "./components/users-searchfield/user-searchfield.component";
 
 //* Styles
-import "./App.css";
+import Styles from "./App.module.css";
 
 //* Icons
 import GithubIcon from "./assets/png/github-light.png";
@@ -50,9 +50,9 @@ function App() {
     };
 
     return (
-        <div className="App">
-            <div className="header-container">
-                <div className="search-header-container">
+        <div className={Styles.App}>
+            <div className={Styles.header_container}>
+                <div className={Styles.search_header_container}>
                     <h1>GitHub</h1>
                     <img alt="github-icon" src={GithubIcon} />
                 </div>

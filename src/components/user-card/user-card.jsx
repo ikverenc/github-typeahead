@@ -1,5 +1,5 @@
 //* Styles
-import "./user-card.styles.css";
+import Styles from "./user-card.module.css";
 
 //* Icons
 import GithubIcon from "../../assets/png/github-light.png";
@@ -21,9 +21,9 @@ const UserCard = (props) => {
     };
 
     return (
-        <div className="card-container" key={login} onClick={redirectHandler}>
+        <div className={Styles.card_container} key={login} onClick={redirectHandler}>
             <img alt="github-user" src={imgURL} />
-            <div className="user-name">
+            <div className={Styles.user_name}>
                 <span>{login}</span>
                 <img alt="github-user" src={GithubIcon} />
             </div>

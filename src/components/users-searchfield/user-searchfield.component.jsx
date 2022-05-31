@@ -1,5 +1,5 @@
 //* Styles
-import "./user-searchfield.styles.css";
+import Styles from "./user-searchfield.module.css";
 
 /**
  * @param  {} props
@@ -14,7 +14,7 @@ const UserSearchfield = (props) => {
     return (
         <>
             <input
-                className="user-searchfield-input"
+                className={Styles.user_searchfield_input}
                 value={value}
                 onChange={onSearchChangeHandler}
                 placeholder={placeholder}

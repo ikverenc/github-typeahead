@@ -1,4 +1,4 @@
-.card-container {
+.card_container {
     border: 1px solid #25526c;
     padding: 2rem;
     border-radius: 16px;
@@ -13,28 +13,28 @@
     cursor: pointer;
 }
 
-.card-container img {
+.card_container img {
     width: 180px;
     height: 180px;
     border-radius: 50%;
 }
 
-.card-container:hover {
+.card_container:hover {
     background-color: #b287c3;
 }
 
-.user-name {
+.user_name {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.user-name span {
+.user_name span {
     color: white;
 }
 
-.user-name img {
+.user_name img {
     width: 25px;
     height: 25px;
 }

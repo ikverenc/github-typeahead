@@ -2,7 +2,7 @@
 import UserCard from "../user-card/user-card";
 
 //* Styles
-import "./users-list.styles.css";
+import Styles from "./users-list.module.css";
 /**
  * @param  {} props
  * *Receives 1 argument
@@ -12,7 +12,7 @@ const UsersList = (props) => {
     const { filteredGithubUsers } = props;
 
     return (
-        <div className="github-accounts-container">
+        <div className={Styles.github_accounts_container}>
             {filteredGithubUsers &&
                 filteredGithubUsers.map((user) => {
                     const { login, avatar_url, html_url } = user;
