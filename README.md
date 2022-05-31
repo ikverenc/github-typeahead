@@ -2,7 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can visit this webpage on [Github Typeahead](https://github-typeahead-7nx3mfyvp-ikverenc.vercel.app/).
+You can visit this app on [Github Typeahead](https://github-typeahead-7nx3mfyvp-ikverenc.vercel.app/).
+
+Application is hosted by [Vercel](https://vercel.com).
 
 ## Available Scripts
 
