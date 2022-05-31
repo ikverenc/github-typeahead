@@ -1,5 +1,5 @@
 //* Components
-import UserCard from "../users-card/users-card";
+import UserCard from "../user-card/user-card";
 
 //* Styles
 import "./users-list.styles.css";
